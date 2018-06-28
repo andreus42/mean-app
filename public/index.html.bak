@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<!-- <html ng-app lang="en" dir="ltr"> -->
+<html ng-app>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact List</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  </head>
+  <body>
+  <h1>Contact List App</h1>
+
+  <input ng-model="test">
+  <h2>PartString:</h2>
+  <h3>{{test}}</h3>
+
+  </body>
+</html>
